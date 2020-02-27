@@ -1,0 +1,113 @@
+<!--pages/task/task.wxml-->
+<view class="box">
+  <view class="swiper-tab">
+      <block wx:for="{{list}}">
+        <view class="swiper-tab-list {{currentTab==index ? 'on' : ''}}" data-current="{{index}}" bindtap="swichNav">{{item.name}}</view> 
+      </block>
+  </view>
+  <swiper current="{{currentTab}}" class="swiper-box" duration="300" style="height:{{winHeight - 30}}px" bindchange="bindChange">
+    <swiper-item>
+    <scroll-view  scroll-y style="height: 100%">
+      <view class="list">
+        <view class="lis">
+          <view class="message">
+            <text class="name">张三</text>
+            <text class="phone">15333334444</text>
+          </view>
+          <view class="con">
+            <view class="every">
+              <text class="address">地址：</text>
+              <text>南市韩城市三元镇街道秦汉大道18号阳光大厦一单元203室</text>
+            </view>
+            <view class="every">
+              <text class="address">订单编号：</text>
+              <text>WS98900998000984</text>
+            </view>
+            <view class="every">
+              <text class="address">鞋的数量：</text>
+              <text>3双</text>
+            </view>
+            <view class="every">
+              <text class="address">下单时间：</text>
+              <text>2020年2月15日 16:43:20</text>
+            </view>
+          </view>
+          <view class="btn">
+            <view class="sure">确认揽件</view>
+            <view class="contact">
+            <image src="/image/task/1.png" mode="widthFix" style="width:32rpx;vertical-align: middle;margin-right:10rpx;"></image>
+              <text>立即联系</text>
+            </view>
+          </view>
+        </view>
+        <view class="lis">
+          <view class="message">
+            <text class="name">张三</text>
+            <text class="phone">15333334444</text>
+          </view>
+          <view class="con">
+            <view class="every">
+              <text class="address">地址：</text>
+              <text>南市韩城市三元镇街道秦汉大道18号阳光大厦一单元203室</text>
+            </view>
+            <view class="every">
+              <text class="address">订单编号：</text>
+              <text>WS98900998000984</text>
+            </view>
+            <view class="every">
+              <text class="address">鞋的数量：</text>
+              <text>3双</text>
+            </view>
+            <view class="every">
+              <text class="address">下单时间：</text>
+              <text>2020年2月15日 16:43:20</text>
+            </view>
+          </view>
+          <view class="btn">
+            <view class="sure">确认揽件</view>
+            <view class="contact">
+            <image src="/image/task/1.png" mode="widthFix" style="width:32rpx;vertical-align: middle;margin-right:10rpx;"></image>
+              <text>立即联系</text>
+            </view>
+          </view>
+        </view>
+        <view class="lis">
+          <view class="message">
+            <text class="name">张三</text>
+            <text class="phone">15333334444</text>
+          </view>
+          <view class="con">
+            <view class="every">
+              <text class="address">地址：</text>
+              <text>南市韩城市三元镇街道秦汉大道18号阳光大厦一单元203室</text>
+            </view>
+            <view class="every">
+              <text class="address">订单编号：</text>
+              <text>WS98900998000984</text>
+            </view>
+            <view class="every">
+              <text class="address">鞋的数量：</text>
+              <text>3双</text>
+            </view>
+            <view class="every">
+              <text class="address">下单时间：</text>
+              <text>2020年2月15日 16:43:20</text>
+            </view>
+          </view>
+          <view class="btn">
+            <view class="sure">确认揽件</view>
+            <view class="contact">
+            <image src="/image/task/1.png" mode="widthFix" style="width:32rpx;vertical-align: middle;margin-right:10rpx;"></image>
+              <text>立即联系</text>
+            </view>
+          </view>
+        </view>
+      </view>
+    </scroll-view>
+    </swiper-item>
+    <swiper-item>
+        <view>送件任务</view>
+    </swiper-item>
+  </swiper>
+
+</view>

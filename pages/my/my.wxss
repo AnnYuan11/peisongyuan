@@ -1,0 +1,95 @@
+/* pages/my/my.wxss */
+.bg_box image{
+  width: 100%;
+}
+.bg_box{
+  position: relative;
+}
+.exit{
+  position: absolute;
+  right: 48rpx;
+  top:20%;
+}
+.exit image{
+  vertical-align: middle;
+  margin-right: 10rpx;
+}
+.exit text{
+  font-size:28rpx;
+  font-weight:500;
+  color:rgba(255,255,255,1);
+}
+.message_box{
+  width:90%;
+  height:288rpx;
+  margin:auto;
+  background:rgba(255,255,255,1);
+  box-shadow:0px 3px 6px rgba(0,0,0,0.16);
+  border-radius:10px;
+  position: absolute;
+  top:60%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 0 48rpx;
+  box-sizing: border-box;
+}
+.head{
+  text-align: center;
+  margin-top: -20%;
+
+}
+.head image{
+  width:200rpx;
+  height:200rpx;
+  border-radius:50%;
+}
+.name{
+  font-size:32rpx;
+  color:rgba(0,0,0,1);
+  margin: 30rpx 0;
+  display: block;
+}
+.mess{
+  display: flex;
+  justify-content: space-between;
+}
+.mess text{
+  font-size:28rpx;
+  color:rgba(100,100,100,1);
+}
+.box{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top:22%;
+}
+.lj{
+  width: 300rpx;
+  height: 160rpx;
+  border-bottom: 3px solid #ffba2f;
+  border-radius: 10rpx;
+  padding: 32rpx 60rpx 32rpx 40rpx;
+  box-sizing: border-box;
+  display: flex;
+  box-shadow: 0px 3px 6px rgba(0,0,0,0.16);
+  justify-content: space-between;
+  line-height: 38rpx;  
+}
+.num{
+  font-size:26rpx;
+  color:rgba(0,0,0,1);
+}
+.jian{
+  font-size:20rpx;
+  color:rgba(100,100,100,1);
+}
+.leiji{
+  display: block;
+  font-size:24rpx;
+  color:rgba(100,100,100,1);
+}
+.sj{
+  border-bottom: 3px solid #5d91df;
+}

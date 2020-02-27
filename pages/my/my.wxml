@@ -1,0 +1,34 @@
+<!--pages/my/my.wxml-->
+<view class="bg_box">
+  <image src="/image/my/1.png" mode="widthFix" style="width:100%"></image>
+  <view class="exit">
+    <image src="/image/my/2.png" style="width:40rpx"mode="widthFix"></image>
+    <text>退出登录</text>
+  </view>
+  <view class="message_box">
+    <view class="head">
+      <image src="/image/my/7.png"></image>
+    </view>
+    <text class="name">韩城市直营三店</text>
+    <view class="mess">
+      <text>配送员：安松仁</text>
+      <text>电话：13290900989</text>
+    </view>
+  </view>
+</view>
+<view class="box">
+  <view class="lj">
+    <image src="/image/my/4.png" mode="widthFix" style="width:80rpx;"></image>
+    <view class="me">
+      <text class="num">122</text><text class="jian">件</text>
+      <text class="leiji">累计揽件</text>
+    </view>
+  </view>
+  <view class="lj sj">
+    <image src="/image/my/3.png" mode="widthFix" style="width:80rpx;"></image>
+    <view class="me">
+      <text class="num">122</text><text class="jian">件</text>
+      <text class="leiji">累计送件</text>
+    </view>
+  </view>
+</view>

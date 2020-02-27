@@ -1,0 +1,15 @@
+<!--pages/login/login.wxml-->
+<view class="login">
+  <view class="text">
+    <text class="disembark">登录</text>
+    <view class="line"></view>
+    <view class="slogan">今亮配送　实时高效</view>
+  </view>
+  <!-- 登陆框 -->
+  <view class="login_box">
+    <input placeholder="请输入账号"placeholder-style="color:#C2C2C2"></input>
+    <input placeholder="请输入密码" placeholder-style="color:#C2C2C2"></input>
+  </view>
+  <view  class='dl' hover-class="" form-type='submit' 
+  > 登录</view> 
+</view>

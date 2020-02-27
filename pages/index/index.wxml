@@ -1,0 +1,61 @@
+<!--index.wxml-->
+<view class="box">
+   <view class="list">
+      <view class="img_box">
+        <image src="/image/index/1.png" mode="widthFix"></image>
+        <view class="message">
+          <text class="name">张三</text>  
+          <text class="phone">15088096790</text>
+        </view>
+        <text class="type">送</text>
+      </view>
+       <view class="con">
+          <view class="lis">
+            <text class="address">地址：</text>
+            <text>渭南市韩城市三元镇街道秦汉大道18号阳光大厦一单元203室</text>
+          </view>
+          <view class="lis">
+            <text class="address">订单编号：</text>
+            <text>WS98900998000984</text>
+          </view>
+          <view class="now">立即抢单</view>
+       </view>
+   </view>
+   <view class="list">
+      <view class="img_box">
+        <image src="/image/index/2.png" mode="widthFix"></image>
+        <view class="message">
+          <text class="name">张三</text>  
+          <text class="phone">15088096790</text>
+        </view>
+        <text class="type">取</text>
+      </view>
+       <view class="con">
+          <view class="lis">
+            <text class="address">地址：</text>
+            <text>渭南市韩城市三元镇街道秦汉大道18号阳光大厦一单元203室</text>
+          </view>
+          <view class="lis">
+            <text class="address">订单编号：</text>
+            <text>WS98900998000984</text>
+          </view>
+          <view class="now yes">立即抢单</view>
+       </view>
+   </view>
+</view>
+<!-- 浮层 -->
+<view class="flow" wx:if="{{isShow}}">
+  <view class="fade">
+    <image src="/image/index/3.png" mode="widthFix"></image>
+    <text>恭喜您抢单成功</text>
+    <view class="yes">确定</view>
+  </view>
+</view>
+<view class="flow" wx:else>
+  <view class="fade">
+    <image src="/image/index/4.png" mode="widthFix"></image>
+    <text class="pity">很遗憾</text>
+    <text class="order">这个订单已被其他员工抢单</text>
+    <view class="yes">确定</view>
+  </view>
+</view>

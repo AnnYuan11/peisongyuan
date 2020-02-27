@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/my/my",
+    "pages/task/task",
+    "pages/index/index",
+    "pages/login/login"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#C2C2C2",
+    "selectedColor": "#0060FD",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "image/icon/1_select.png",
+        "iconPath": "image/icon/1.png",
+        "pagePath": "pages/index/index",
+        "text": "抢单"
+      },
+      {
+        "selectedIconPath": "image/icon/2_select.png",
+        "iconPath": "image/icon/2.png",
+        "pagePath": "pages/task/task",
+        "text": "任务"
+      },
+      {
+        "selectedIconPath": "image/icon/3_select.png",
+        "iconPath": "image/icon/3.png",
+        "pagePath": "pages/my/my",
+        "text": "个人 "
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
